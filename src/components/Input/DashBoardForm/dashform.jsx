@@ -13,7 +13,6 @@ const TechCreateForm = () => {
 
   const submit = (data) => {
     techCreate(data);
-    console.log(data);
   };
 
   return (

@@ -7,7 +7,7 @@ import TechCreateForm from "../../components/Input/DashBoardForm/dashform";
 import { SiAddthis } from "react-icons/si";
 import TechUpdateForm from "../../components/Input/TechUpdateForm/TechUpdateForm";
 
-export default function Authenticator() {
+export default function Dashboard() {
   const { user, logout } = useContext(UserContext);
   const { tech, setEditindTech, editindTech, createTech, setCreateTech } =
     useContext(TechContext);

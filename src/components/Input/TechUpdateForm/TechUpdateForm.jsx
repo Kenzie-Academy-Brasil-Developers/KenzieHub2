@@ -15,7 +15,6 @@ const TechUpdateForm = () => {
 
   const submit = (data) => {
     techUpdate(data, editindTech.id);
-    console.log(data);
   };
 
   return (

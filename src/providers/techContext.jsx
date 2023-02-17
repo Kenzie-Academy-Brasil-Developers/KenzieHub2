@@ -37,7 +37,6 @@ export const TechProvider = ({ children }) => {
         },
       });
       toast.success("Tecnologia criada com sucesso");
-      console.log(response.data);
       setTech([...tech, response.data]);
     } catch (error) {
       console.log(error);

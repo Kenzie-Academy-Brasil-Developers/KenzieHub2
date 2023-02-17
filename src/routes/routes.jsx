@@ -2,10 +2,11 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Login from "../pages/Login/login";
 import Register from "../pages/Register/register";
-import Dashboard from "../pages/Dashboard/dashboard";
 import PageNotFound from "../pages/PageNotFound/pagenotfound";
 import ProtectRoutes from "../pages/ProtectRoutes/protectRoutes";
 import { TechProvider } from "../providers/TechContext";
+import Dashboard from "../pages/Dashboard/ProfilePage";
+
 
 export default function AppRoutes() {
 
@@ -22,8 +23,10 @@ export default function AppRoutes() {
 
       <Route path="/profile" element={<ProtectRoutes/>} >
 
-      <Route path="/profile" element={<TechProvider><Dashboard /></TechProvider>} />
+      <Route path="/profile" element={<TechProvider><Dashboard/></TechProvider>} />
       </Route>
+
+      
 
 
 

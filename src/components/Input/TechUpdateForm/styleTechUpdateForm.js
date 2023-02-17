@@ -7,8 +7,10 @@ export const DivTechUpdateForm = styled.div`
   text-align: center;
   margin: 0 auto;
   width: 296px;
+  max-width: 100%;
 
   form {
+    position: fixed;
     display: flex;
     flex-direction: column;
     width: 295.83px;
@@ -18,6 +20,8 @@ export const DivTechUpdateForm = styled.div`
     box-shadow: 0px 3.19812px 31.9812px -7.99531px rgba(0, 0, 0, 0.25);
     border-radius: 3.19812px;
     gap: 18px;
+    max-width: 100%;
+
   }
   div {
     display: flex;
@@ -26,17 +30,23 @@ export const DivTechUpdateForm = styled.div`
     gap: 10px;
     color: red;
     font-size: 10px;
+    max-width: 100%;
+
   }
 
   label {
     color: var(--grey-0);
     font-size: 10px;
+    max-width: 100%;
+
   }
 
   h2 {
     color: var(--grey-0);
     font-size: 15px;
     font-weight: 700;
+    max-width: 100%;
+
   }
 
   nav {
@@ -48,12 +58,16 @@ export const DivTechUpdateForm = styled.div`
     padding: 0;
     background-color: var(--grey-3);
     color: var(--grey-1);
+    max-width: 100%;
+
   }
 
   h3 {
     font-weight: 400;
     font-size: 14px;
     color: var(--grey-0);
+    max-width: 100%;
+
   }
 
   input {
@@ -63,6 +77,8 @@ export const DivTechUpdateForm = styled.div`
     gap: 8.12px;
     width: 263.79px;
     height: 38.38px;
+    max-width: 100%;
+
   }
 
   select {
@@ -72,6 +88,8 @@ export const DivTechUpdateForm = styled.div`
     gap: 8.12px;
     width: 263.79px;
     height: 38.38px;
+    max-width: 100%;
+
   }
 `;
 
@@ -82,6 +100,8 @@ export const CloseModalBtn = styled.button`
   background-color: none;
   color: var(--grey-0);
   border-radius: 4px;
+  max-width: 100%;
+
 `;
 
 
@@ -93,6 +113,8 @@ export const BtnCreateTechPink = styled.button`
     background-color: var(--color-primary);
     color: var(--grey-0);
     border-radius: 4px;
+    max-width: 100%;
+
   
 
 
